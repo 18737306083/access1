@@ -1,0 +1,5 @@
+cacert.pem为可信任根证书文件，最新来源地址 https://curl.haxx.se/ca/cacert.pem。用户请保持更新
+
+WoSign.jks是生成的WoSign机构的信任库文件，该文件由jdk keytool工具根据Wosign的证书文件生成
+
+demo中演示了用这两个文件中的任意一个来验证服务端证书的方法，推荐用cacert.pem文件，方法更通用，有效期更长
